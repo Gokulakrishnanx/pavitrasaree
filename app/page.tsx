@@ -59,6 +59,19 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Banner Section */}
+      <section className="bg-sky-700 text-white py-16 px-4 text-center">
+        <div className="container mx-auto max-w-4xl">
+          <h2 className="text-3xl font-bold mb-4">Discover Your Perfect Saree</h2>
+          <p className="text-lg mb-8">Browse our collections and find a saree that speaks to your style.</p>
+          <Link href="/sarees">
+            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-sky-700">
+              Shop All Sarees
+            </Button>
+          </Link>
+        </div>
+      </section>
+
       {/* Testimonials */}
       <section className="py-16 px-4">
         <div className="container mx-auto max-w-6xl">
